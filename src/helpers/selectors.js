@@ -27,4 +27,4 @@ export function getInterview(state, interview) {
   return result;
 };
 
-export default getAppointmentsForDay;
+// export default getAppointmentsForDay;
