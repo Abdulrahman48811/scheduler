@@ -7,9 +7,13 @@ export function getAppointmentsForDay(state, day) {
       dayAppointmentsArr = objDay.appointments;
     }
   }
+
   for (let appId of dayAppointmentsArr) {
-    filteredAppointments.push(state.appointments[appId])
+    filteredAppointments.push(state.appointments[appId]);
   }
 
 return filteredAppointments;
 };
+
+
+export default getAppointmentsForDay;
