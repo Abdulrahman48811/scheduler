@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import Button from '/src/components/Button';
-import InterviewerList from '/src/components/InterviewerList';
+import Button from 'components/Button';
+import InterviewerList from 'components/InterviewerList';
 
 export default function Form(props) {
   const [student, setStudent] = useState(props.student || "");
@@ -13,12 +13,12 @@ export default function Form(props) {
 
   const cancel = () => {
     reset();
-    {props.onCancel()}
-  }
+      props.onCancel();
+  };
 
   const handleEnterKey = (e) => {
     if (e.key === 'Enter') {
-      {props.onSave()}
+        props.onSave()
     }
   }
 

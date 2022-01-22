@@ -29,8 +29,8 @@ export default function Application(props) {
   const setDay = (day) => setState({ ...state, day });
 
   useEffect(() => {
-    Promise.all([
-      axios.get(`/api/days`),
+    axios.get(`/api/days`)
+      Promise.all([
       axios.get(`/api/appointments`),
       axios.get(`/api/interviewers`),
     ]).then((all) => {
@@ -42,7 +42,7 @@ export default function Application(props) {
         interviewers: third.data,
       }));
     });
-  }, []);
+    }, []);
 
   return (
     <main className='layout'>
