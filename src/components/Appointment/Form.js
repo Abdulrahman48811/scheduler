@@ -8,7 +8,7 @@ export default function Form(props) {
 
   const reset = () => {
     setStudent("");
-    setInterviewer("");
+    setInterviewer(null);
   }
 
   const cancel = () => {
@@ -17,9 +17,8 @@ export default function Form(props) {
   };
 
   const handleEnterKey = (e) => {
-    if (e.key === 'Enter') {
+    if (e.key === 'Enter') 
         props.onSave()
-    }
   }
 
   return (
@@ -33,7 +32,7 @@ export default function Form(props) {
             placeholder="Enter Student Name"
             onChange={(e) => setStudent(e.target.value)}
             onKeyDown={handleEnterKey}
-            value={student}
+            value={props.name}
           />
         </form>
         <InterviewerList 
