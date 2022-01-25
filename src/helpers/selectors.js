@@ -2,7 +2,7 @@ export function getAppointmentsForDay(state, day) {
   let dayAppointmentsArr = [];
   let filteredAppointments = [];
 
-  for (let objDay of state.days) {
+  for (let objDay of state.day) {
     if (objDay.name === day ) {
       dayAppointmentsArr = objDay.appointments;
     }
@@ -42,3 +42,4 @@ export function getInterviewersForDay(state, day) {
 
 return filteredInterviewers;
 };
+
