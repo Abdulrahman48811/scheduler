@@ -4,14 +4,13 @@ Scheduler app is a React app that allows students to arrange time with a mentor 
 
 ### Main page
 
-![Screenshot of URLs page](https://github.com/Abdulrahman48811/scheduler/blob/e70c3eee000d06bb7fd22be70e0c06f58f65aeb7/docs/Scheduler%20add-student.png)
-
-### Added Student
-![Screenshot of URLs page](https://github.com/Abdulrahman48811/scheduler/blob/e70c3eee000d06bb7fd22be70e0c06f58f65aeb7/docs/Scheduler%20delete-student.png)
-
-### Delete Appointment
 ![Screenshot of URLs page](https://github.com/Abdulrahman48811/scheduler/blob/e70c3eee000d06bb7fd22be70e0c06f58f65aeb7/docs/Scheduler%20home-page.png)
 
+### Added Student
+![Screenshot of URLs page](https://github.com/Abdulrahman48811/scheduler/blob/e70c3eee000d06bb7fd22be70e0c06f58f65aeb7/docs/Scheduler%20add-student.png)
+
+### Delete Appointment
+![Screenshot of URLs page](https://github.com/Abdulrahman48811/scheduler/blob/e70c3eee000d06bb7fd22be70e0c06f58f65aeb7/docs/Scheduler%20delete-student.png)
 # Interview Scheduler
 
 ## Setup
