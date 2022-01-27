@@ -1,6 +1,6 @@
 # Interview Scheduler
 
-Scheduler app is a React app that allows students to arrange time with a mentor between Monday and Friday. Students can set up a new appointment, update an existing appointment, and also delete an existing appointment. Scheduler was built with Express, React & Node
+Scheduler app is a React app that allows students to arrange time with a mentor between Monday and Friday. Students can set up a new appointment, update an existing appointment, and also delete an existing appointment. Scheduler was built with Express, React & Node.
 
 ### Main page
 
